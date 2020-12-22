@@ -10,6 +10,8 @@ public class Main {
         try {
             Scanner in = new Scanner(System.in);
             String fileName = "E:/agh/5s/AI/lab2 Fuzzy (zbiory rozmyte) !/Projekt/src/fuzzy/fcl/tipper.fcl";
+            //String fileName = "./fcl/tipper.fcl";
+
             FIS fis = FIS.load(fileName,true);
 
            // int poziomNatezenia = Integer.parseInt(args[1]);

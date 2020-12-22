@@ -11,7 +11,7 @@ FUNCTION_BLOCK
 
  FUZZIFY sen
   TERM czasNaSpanko := (0, 1) (8, 0.75) (10, 0);
-  TERM ok := (8, 0) (10, 1) (12, 0.75);
+  TERM ok := (8, 0) (10, 1) (12, 0.75) (15, 0);
   TERM suuuper := (12, 0) (16, 1) (20, 1);
  END_FUZZIFY
 
@@ -22,9 +22,9 @@ FUNCTION_BLOCK
  END_FUZZIFY
 
  FUZZIFY atencja
-   TERM kotekJestSmutny := (1, 0) (3, 0.50) (5, 1) (7, 1) (9, 0.50) (11, 0);
-   TERM mrmrmrrr := (7, 0) (9, 0.50) (11, 1) (13, 1) (15, 0.50) (17, 0);
-   TERM LETMEOUT := (13, 0) (15, 0.50) (17, 1) (19, 1) (21, 0.50) (23, 0);
+   TERM kotekJestSmutny := (0, 1) (1, 1) (2, 0.50) (3, 0);
+   TERM mrmrmrrr :=  (2, 0.50) (3, 0.5) (4, 1)  (6, 1) (8, 0.50) (9, 0);
+   TERM LETMEOUT :=(6, 0) (7, 0.50) (8, 1) (10, 1);
   END_FUZZIFY
 
  DEFUZZIFY zachowanie
